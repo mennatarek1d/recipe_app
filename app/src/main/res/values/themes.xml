@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base Theme -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your theme colors below if needed -->
+        <item name="colorPrimary">#FF4F5A</item>
+        <item name="colorSecondary">#FF4F5A</item>
+    </style>
+
+    <!-- App Theme -->
+    <style name="Theme.MyApplication" parent="Base.Theme.MyApplication" />
+
+    <!-- ✅ DishDash Button Style -->
+    <style name="Widget.DishDash.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@null</item> <!-- let drawable control color -->
+        <item name="background">@drawable/bg_button_rounded</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:elevation">6dp</item>
+        <item name="rippleColor">@android:color/transparent</item> <!-- remove ripple -->
+    </style>
+
+</resources>
